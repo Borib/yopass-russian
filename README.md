@@ -3,7 +3,8 @@
 <H2>English</H2>
 Russian language File for yopass by Johan Haals (jhaals/yopass)<br>
 <a href="https://github.com/jhaals/yopass">Yopass - Share Secrets Securely</a>
-<h3><Installation</h3>
+
+<h3>Installation</h3>
 Copy the website/public/locales/pl.json file to the corresponding directory in your yopass installation.<br>
 yopass will automatically detect the new language and activate it if your Browser presents that language to yopass.
 

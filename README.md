@@ -13,13 +13,14 @@ yopass will automatically detect the new language and activate it if your Browse
 ### Container
 Check this repository out and build your own container with the polish language file included to the original Yopass-Image from docker.io.
 ```javascript copy
-git clone https://github.com/jhaals/yopass.git
+wget https://github.com/jhaals/yopass/archive/refs/tags/11.15.1.tar.gz
+tar xvf 11.15.1.tar.gz
 git clone https://github.com/Borib/yopass-russian.git
 ```
 Copy russian language file into locales folder inside yopass build directory:
 ```javascript copy
-cp /root/yopass-russian/website/public/locales/ru.json /root/yopass/website/public/locales/
-cd /root/yopass
+cp /root/yopass-russian/website/public/locales/ru.json /root/yopass-11.15.1/website/public/locales/
+cd /root/yopass-11.15.1
 ```
 When building image: borib - author name; yopassru - image name; v1 - version tag.<br>
 Dot at the end means to search Dockerfile in current directory.<br>
@@ -42,13 +43,14 @@ yopass автоматически обнаружит новый язык и ак
 ### Контейнер
 Исследуйте этот репозиторий и создайте свой собственный контейнер с файлом русского языка, включенным в исходный Yopass-Image из docker.io.
 ```javascript copy
-git clone https://github.com/jhaals/yopass.git
+wget https://github.com/jhaals/yopass/archive/refs/tags/11.15.1.tar.gz
+tar xvf 11.15.1.tar.gz
 git clone https://github.com/Borib/yopass-russian.git
 ```
 Cкопировать файл с русификацией в папку locales внутри сборки:
 ```javascript copy
-cp /root/yopass-russian/website/public/locales/ru.json /root/yopass/website/public/locales/
-cd /root/yopass
+cp /root/yopass-russian/website/public/locales/ru.json /root/yopass-11.15.1/website/public/locales/
+cd /root/yopass-11.15.1
 ```
 В сборке контейнера: borib - имя автора; yopassru - название для сборки; v1 - тег с указанием версии.<br>
 Точка на конце указывает, что поиск Dockerfile выполняем в текущей директории.<br>

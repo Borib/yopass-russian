@@ -1,5 +1,6 @@
 # yopass - Russian language file
 <hr style="border-width: 3px;">
+
 ## English
 Russian language File for yopass by Johan Haals (jhaals/yopass)
 <a href="https://github.com/jhaals/yopass">Yopass - Share Secrets Securely</a>
@@ -16,6 +17,7 @@ cd yopass-russian
 docker build -t borib/yopassru -f Dockerfile
 ```
 <hr style="border-width: 3px;">
+
 ## Русский
 Файл русского перевода для yopass от Johan Haals (jhaals/yopass)
 <a href="https://github.com/jhaals/yopass">Yopass - Share Secrets Securely</a>
@@ -27,7 +29,6 @@ Yopass автоматически обнаружит новый язык и ак
 ### Контейнер
 Исследуйте этот репозиторий и создайте свой собственный контейнер с файлом русского языка, включенным в исходный Yopass-Image из docker.io.
 ```javascript copy
-const copyMe = true
 git clone https://github.com/Borib/yopass-russian.git
 cd yopass-russian
 docker build -t borib/yopassru -f Dockerfile

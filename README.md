@@ -10,9 +10,7 @@ yopass will automatically detect the new language and activate it if your Browse
 
 ### Container
 Check this repository out and build your own container with the polish language file included to the original Yopass-Image from docker.io.
-
 ```javascript copy
-const copyMe = true
 git clone https://github.com/Borib/yopass-russian.git
 cd yopass-russian
 docker build -t borib/yopassru -f Dockerfile
@@ -28,3 +26,9 @@ Yopass автоматически обнаружит новый язык и ак
 
 ### Контейнер
 Исследуйте этот репозиторий и создайте свой собственный контейнер с файлом русского языка, включенным в исходный Yopass-Image из docker.io.
+```javascript copy
+const copyMe = true
+git clone https://github.com/Borib/yopass-russian.git
+cd yopass-russian
+docker build -t borib/yopassru -f Dockerfile
+```

@@ -49,7 +49,7 @@ Cкопировать файл с русификацией в папку locales
 cp /root/yopass-russian/website/public/locales/ru.json /root/yopass/website/public/locales/
 cd /root/yopass
 ```
-В сборке контейнера borib - имя автора; yopassru - название для сборки; v1 - тег с указанием версии.<br>
+В сборке контейнера: borib - имя автора; yopassru - название для сборки; v1 - тег с указанием версии.<br>
 Точка на конце указывает, что поиск Dockerfile выполняем в текущей директории.<br>
 Имя образа (borib/yopassru) вводить только в нижнем регистре.
 ```javascript copy

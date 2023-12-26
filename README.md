@@ -1,6 +1,6 @@
 # yopass - Russian language file
 <hr style="border-width: 3px;">
-![image](https://github.com/Borib/yopass-russian/assets/20231743/6c449e90-937c-419f-9015-2083f19f461d)
+[image](https://github.com/Borib/yopass-russian/assets/20231743/6c449e90-937c-419f-9015-2083f19f461d)
 
 ## English
 Russian language File for yopass by Johan Haals (jhaals/yopass)<br>

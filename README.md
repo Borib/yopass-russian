@@ -14,10 +14,16 @@ Check this repository out and build your own container with the polish language 
 ```javascript copy
 git clone https://github.com/jhaals/yopass.git
 git clone https://github.com/Borib/yopass-russian.git
-#copy russian language file into locales folder inside yopass build directory:
+```
+Copy russian language file into locales folder inside yopass build directory:
+```javascript copy
 cp /root/yopass-russian/website/public/locales/ru.json /root/yopass/website/public/locales/
 cd /root/yopass
-#When building image: borib - author name; yopassru - image name; v1 - version tag. Dot at the end means to search Dockerfile in current directory. Image and author name (borib/yopassru) must be entered in lower case.
+```
+When building image: borib - author name; yopassru - image name; v1 - version tag.<br>
+Dot at the end means to search Dockerfile in current directory.<br>
+Image and author name (borib/yopassru) must be entered in lower case.
+```javascript copy
 docker build -t borib/yopassru:v1 .
 docker run --name memcached_yopass -d memcached
 docker run --name yopass-russian -p 127.0.0.1:80:1337 --link memcached_yopass:memcached -d borib/yopassru:v1 --memcached=memcached:11211
@@ -37,10 +43,16 @@ yopass автоматически обнаружит новый язык и ак
 ```javascript copy
 git clone https://github.com/jhaals/yopass.git
 git clone https://github.com/Borib/yopass-russian.git
-#скопировать файл с русификацией в папку locales внутри сборки:
+```
+Cкопировать файл с русификацией в папку locales внутри сборки:
+```javascript copy
 cp /root/yopass-russian/website/public/locales/ru.json /root/yopass/website/public/locales/
 cd /root/yopass
-#В сборке контейнера borib - имя автора; yopassru - название для сборки; v1 - тег с указанием версии. Точка на конце указывает, что поиск Dockerfile выполняем в текущей директории. Имя образа (borib/yopassru) вводить только в нижнем регистре.
+```
+В сборке контейнера borib - имя автора; yopassru - название для сборки; v1 - тег с указанием версии.<br>
+Точка на конце указывает, что поиск Dockerfile выполняем в текущей директории.<br>
+Имя образа (borib/yopassru) вводить только в нижнем регистре.
+```javascript copy
 docker build -t borib/yopassru:v1 .
 docker run --name memcached_yopass -d memcached
 docker run --name yopass-russian -p 127.0.0.1:80:1337 --link memcached_yopass:memcached -d borib/yopassru:v1 --memcached=memcached:11211

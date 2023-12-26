@@ -24,7 +24,7 @@ cd /root/yopass-11.15.1
 ```
 When building image: <b>borib</b> - author name; <b>yopassru</b> - image name; <b>v1</b> - version tag.<br>
 Dot at the end means to search Dockerfile in current directory.<br>
-Image and author name (<u>borib/yopassru</u>) must be entered in lower case.
+Image and author name (<i>borib/yopassru</i>) must be entered in lower case.
 ```javascript copy
 docker build -t borib/yopassru:v1 .
 docker run --name memcached_yopass -d memcached
@@ -54,7 +54,7 @@ cd /root/yopass-11.15.1
 ```
 В сборке контейнера: <b>borib</b> - имя автора; <b>yopassru</b> - название для сборки; <b>v1</b> - тег с указанием версии.<br>
 Точка на конце указывает, что поиск Dockerfile выполняем в текущей директории.<br>
-Имя образа (<u>borib/yopassru</u>) вводить только в нижнем регистре.
+Имя образа (<i>borib/yopassru</i>) вводить только в нижнем регистре.
 ```javascript copy
 docker build -t borib/yopassru:v1 .
 docker run --name memcached_yopass -d memcached

@@ -2,11 +2,11 @@
 <hr style="border-width: 3px;">
 
 ## English
-Russian language File for yopass by Johan Haals (jhaals/yopass)
+Russian language File for yopass by Johan Haals (jhaals/yopass)<br>
 <a href="https://github.com/jhaals/yopass">Yopass - Share Secrets Securely</a>
 
 ### Installation
-Copy the website/public/locales/ru.json file to the corresponding directory in your yopass installation.
+Copy the website/public/locales/ru.json file to the corresponding directory in your yopass installation.<br>
 yopass will automatically detect the new language and activate it if your Browser presents that language to yopass.
 
 ### Container
@@ -19,11 +19,11 @@ docker build -t borib/yopassru -f Dockerfile
 <hr style="border-width: 3px;">
 
 ## Русский
-Файл русского перевода для yopass от Johan Haals (jhaals/yopass)
+Файл русского перевода для yopass от Johan Haals (jhaals/yopass)<br>
 <a href="https://github.com/jhaals/yopass">Yopass - Share Secrets Securely</a>
 
 ### Установка
-Скопируйте файл site/public/locales/ru.json в соответствующий каталог вашей установки yopass.
+Скопируйте файл site/public/locales/ru.json в соответствующий каталог вашей установки yopass.<br>
 Yopass автоматически обнаружит новый язык и активирует его, если ваш браузер поддерживает этот язык для yopass.
 
 ### Контейнер
